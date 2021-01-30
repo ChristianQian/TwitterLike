@@ -1,0 +1,32 @@
+http://localhost:8080/tme2/CreateUser?prenom=p1&nom=n1&login=10&password=p
+http://localhost:8080/tme2/CreateUser?prenom=p2&nom=n2&login=20&password=
+
+http://localhost:8080/tme2/Login?login=10&password=p
+http://localhost:8080/tme2/Login?login=20&password=
+
+http://localhost:8080/tme2/Logout?key=
+
+http://localhost:8080/tme2/AddFriend?key= &login2=20
+
+http://localhost:8080/tme2/RemoveFriend?key= &login2=20
+
+
+http://localhost:8080/tme2/AddComment?key= &text=ChocolateLover
+http://localhost:8080/tme2/AddComment?key= &text=NonMerci
+http://localhost:8080/tme2/AddComment?key= &text=grsgsg
+
+http://localhost:8080/tme2/Search?key= &id2=
+
+
+
+
+Create table sample:
+CREATE TABLE `sample` (
+  `Uid` char(38) NOT NULL,
+  PRIMARY KEY (`Uid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Insert random into table sample:
+INSERT INTO Sample(UId)
+VALUES(UUID());
+SELECT * FROM Sample;

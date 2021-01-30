@@ -1,0 +1,233 @@
+body {
+  background: rgb(118, 230, 238);
+}
+
+
+.Login{
+  background-attachment : scroll;
+  position: absolute;
+  top: 100px;
+  width:350px;
+  height:340px;
+  box-shadow: 5px 5px 10px rgb(240, 128, 0);
+	background:rgb(255, 204, 145);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  text-align:center;
+  align-items: center;
+}
+
+
+
+.inner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-input {
+  height: 2.1em;
+  border-radius: 3px;
+  border: 1px solid rgb(193, 216, 247);
+  transition: border 0.4s ease-out;
+  padding: 13px;
+  box-shadow: 3px 3px 10px rgb(163, 89, 5);
+  font-family: Oxygen, sans-serif;
+  font-size: 19px;
+  color: #3e3e42;
+  background: rgba(15, 15, 15, 0.01);
+}
+
+.box-controller {
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 24em;
+  min-width: 21em;
+  height: 35px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+  margin-bottom: 30px;
+  align-items: center;
+  transition: visibility 0.5s ease-out;
+}
+
+
+.login-btn {
+  padding: 4px;
+  background-color: #417cef;
+  color: rgb(255, 255, 255);
+  opacity: 0.95;
+  border: 0;
+  font-size: 18px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 13px rgb(34, 97, 214);
+  font-family: Oxygen, sans-serif;
+  margin-top: 15px;
+  border: 3px solid #f3f5f8;
+  transition: background-color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxmess{
+  height: 60px;
+  width: 95%;
+  border: 3px solid rgb(59, 109, 216);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(123, 172, 250);
+  box-shadow: 5px 5px 10px rgb(19, 92, 161);
+  
+}
+
+.Inscription{
+  position: absolute;
+  top: 20px;
+  width:350px;
+  height: 580px;
+	background:rgb(255, 204, 145);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  text-align:center;
+  align-items: center;
+}
+
+header{
+  position: relative;
+  top: 20px;
+  height: 100px;
+  width: 98%;
+  border: 3px solid rgb(248, 100, 14);
+  padding-top: 10px;
+  margin-left: 1%;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(255, 204, 145);
+  box-shadow: 4px 4px 10px rgb(240, 128, 0);
+  
+}
+
+.friendR{
+  height: 40px;
+  width: 95%;
+  border: 3px solid rgb(156, 25, 25);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(223, 74, 74);
+  box-shadow: 5px 5px 10px rgb(68, 10, 10);
+}
+
+.etranR{
+  height: 40px;
+  width: 95%;
+  border: 3px solid rgb(40, 122, 30);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(33, 216, 88);
+  box-shadow: 5px 5px 10px rgb(15, 90, 21);
+}
+
+.InAccount{
+  width: 100%;
+  height: 100%;
+}
+
+.mscroll{
+  overflow:auto ;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+
+.sscroll{
+  overflow:auto ;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+
+.img{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 2%;
+  border-radius: 10px;
+  padding: 2px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgb(54, 58, 61);
+}
+.zone_recherche{
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  display: inline;
+  align-items: center;
+}
+
+.stat{
+  position: absolute;
+  width:22%;
+  height: 700px;
+  display: inline-block;
+  flex-direction: column;
+  border: 3px solid rgb(248, 100, 14);
+  margin-top: 40px;
+  left: 1%;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(255, 204, 145);
+  box-shadow: 2px 2px 10px rgb(240, 128, 0);
+}
+
+.friend{
+  position: absolute;
+  width: 22%;
+  height: 700px;
+  flex-direction: column;
+  border: 3px solid rgb(248, 100, 14);
+  margin-top: 40px;
+  right: 1%;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(255, 204, 145);
+  box-shadow: 2px 2px 10px rgb(240, 128, 0);
+}
+.message{
+  position: absolute;
+  width: 49%;
+  height: 700px;
+  left: 25%;
+  flex-direction: column;
+  border: 3px solid rgb(248, 100, 14);
+  margin-top: 40px;
+  border-radius: 20px;
+  display: flex;
+  background: rgb(255, 204, 145);
+  box-shadow: 2px 2px 10px rgb(240, 128, 0);
+}
